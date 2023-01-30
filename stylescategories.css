@@ -1,0 +1,22 @@
+#divcategories{
+    position: absolute;
+    top: 4  0%;
+    height: 20vw;
+    width: fit-content;
+    display: block;
+    
+}
+td {
+    display: table-cell !important;
+    height: 15vw;
+    width: 20vw;
+}
+
+#categorylist {
+    position: absolute;
+    right: 0px;
+    top: 40%;
+    height: 40%;
+    width: 20%;
+    
+}
