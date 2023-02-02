@@ -4,3 +4,15 @@
 .navbar-toggler:focus{
     box-shadow: none !important;
 }
+#footer{
+    position: absolute;
+    bottom: 0vw;
+    width: 100vw;
+    height: 0vw;
+}
+#carouselExampleIndicators {
+    position: absolute !important;
+    top: 20vw;
+    left: 10vw;
+    right: 10vw;
+}
