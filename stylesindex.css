@@ -7,12 +7,56 @@
 #footer{
     position: absolute;
     bottom: 0vw;
-    width: 100vw;
+    width: 100%;
     height: 0vw;
+ }
+ 
+  #carouselExampleIndicators {
+    height: 40vw;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 40%;
+    padding-top: 3%;
+    border: solid black 1px;
+    border-radius: 1rem ;
+ }
+
+  
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black !important;
 }
-#carouselExampleIndicators {
-    position: absolute !important;
-    top: 20vw;
-    left: 10vw;
-    right: 10vw;
+
+.slider{
+    color: black ;
+    text-align: center;
 }
+#productosdestacados {
+    position: absolute;
+    top: 20%;
+    width: 100vw;
+}
+h1 {
+    text-align: center;
+}
+
+#carouselExampleIndicators2 {
+    height: 40vw;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 180%;
+    padding-top: 3%;
+    border: solid black 1px;
+    border-radius: 1rem ;
+ }
+ .carousel-control-next {
+    padding-left: 5rem !important;
+ }
+ .carousel-control-prev{
+    padding-right: 5rem !important;
+ }
