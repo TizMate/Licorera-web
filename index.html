@@ -17,10 +17,6 @@
     crossorigin="anonymous"></script>
   <!--Bootstrap-->
 
-  <!--React-->
-  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-  <!--React-->
 
 </head>
 
@@ -29,7 +25,7 @@
   <!--NavBar-->
   <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand">Licorera</a>
     <button  id='botonnavbar' class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
       <svg xmlns="http://www.w3.org/2000/svg" height="2rem" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
@@ -62,23 +58,19 @@
             <li><a class="dropdown-item" href="#">Nosequeponeraqui</a></li>
             </ul>
         </li>
-        <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-        </li>
         </ul>
-        <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        
     </div>
     </div>
 </nav>
 
 <!-- NavBar -->
+<img id="back1" src="./imgs/back2.jpg">
 
 <div id="productosdestacados"> 
-  <h1>Productos Destacados</h1>
+  <h1 id="destacados">Productos <b>Destacados</b> </h1>
 </div>
+
 
 
 <!-- Slider -->
@@ -92,16 +84,16 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="row">
-        <div class="col"> <img src="./imgs/buchanamaster.png" class="d-block w-100" alt="..."> 
-          <h5 class="slider"> TragoX</h5>
+        <div class="col"> <img height="auto" src="./imgs/buchanamaster.png" class="d-block w-100" alt="..."> 
+          <h5 class="slider tragox"> TragoX</h5>
             <p class="slider">holi</p> 
               <h4 class="slider"> Precio</h4></div>
-        <div class="col"> <img src="./imgs/somethingspecial.png" class="d-block w-100" alt="...">
-          <h5 class="slider"> TragoX</h5> 
+        <div class="col"> <img height="auto" src="./imgs/somethingspecial.png" class="d-block w-100" alt="...">
+          <h5 class="slider tragox"> TragoX</h5> 
             <p class="slider">holi2</p>
               <h4 class="slider"> Precio</h4></div>
-        <div class="col"> <img src="./imgs/medallo.png" class="d-block w-100" alt="...">
-          <h5 class="slider"> TragoX</h5>
+        <div class="col"> <img height="auto" src="./imgs/medallo.png" class="d-block w-100" alt="...">
+          <h5 class="slider tragox"> TragoX</h5>
             <p class="slider">holi3</p> 
               <h4 class="slider"> Precio</h4></div>
       </div>
@@ -109,19 +101,19 @@
     </div>
     <div class="carousel-item">
       <div class="row">
-        <div class="col"> <img src="./imgs/oldpar.png" class="d-block w-100" alt="...">
-          <h5 class="slider"> TragoX</h5>
+        <div class="col"> <img height="auto" src="./imgs/oldpar.png" class="d-block w-100" alt="...">
+          <h5 class="slider tragox"> TragoX</h5>
             <p class="slider">holi</p> 
               <h4 class="slider"> Precio</h4>
         </div>
-        <div class="col"> <img src="./imgs/redlabel.png" class="d-block w-100" alt="...">
+        <div class="col"> <img height="auto" src="./imgs/redlabel.png" class="d-block w-100" alt="...">
           <h5 class="slider"> TragoX</h5>
             <p class="slider">holi</p> 
               <h4 class="slider"> Precio</h4> </div>
-        <div class="col"> <img src="./imgs/smirnoff.png" class="d-block w-100" alt="..."> 
-          <h5 class="slider"> TragoX</h5>
-            <p class="slider">holi</p> 
-              <h4 class="slider"> Precio</h4></div>
+              <div class="col"> <img id="smirnof" height="auto" class="d-block w-100" src="./imgs/smirnoff.png" alt="..."> 
+                <h5 class="slider tragox smir"> TragoX</h5>
+                  <p class="slider">holi</p> 
+                    <h4 class="slider"> Precio</h4></div>
       </div>
     
       
@@ -148,6 +140,8 @@
 
 <!-- Slider -->
 
+<div id="mostsold" ><h1>Más <b>vendidos</b></h1></div>
+
 <!-- Slider 2 -->
 
 <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
@@ -159,16 +153,16 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="row">
-        <div class="col"> <img src="./imgs/buchanamaster.png" class="d-block w-100" alt="..."> 
-          <h5 class="slider"> TragoX</h5>
+        <div class="col"> <img height="auto" src="./imgs/buchanamaster.png" class="d-block w-100" alt="..."> 
+          <h5 class="slider tragox"> TragoX</h5>
             <p class="slider">holi</p> 
               <h4 class="slider"> Precio</h4></div>
-        <div class="col"> <img src="./imgs/somethingspecial.png" class="d-block w-100" alt="...">
-          <h5 class="slider"> TragoX</h5> 
+        <div class="col"> <img height="auto" src="./imgs/somethingspecial.png" class="d-block w-100" alt="...">
+          <h5 class="slider tragox" > TragoX</h5> 
             <p class="slider">holi2</p>
               <h4 class="slider"> Precio</h4></div>
-        <div class="col"> <img src="./imgs/medallo.png" class="d-block w-100" alt="...">
-          <h5 class="slider"> TragoX</h5>
+        <div class="col"> <img height="auto" src="./imgs/medallo.png" class="d-block w-100" alt="...">
+          <h5 class="slider tragox"> TragoX</h5>
             <p class="slider">holi3</p> 
               <h4 class="slider"> Precio</h4></div>
       </div>
@@ -176,17 +170,17 @@
     </div>
     <div class="carousel-item">
       <div class="row">
-        <div class="col"> <img src="./imgs/oldpar.png" class="d-block w-100" alt="...">
-          <h5 class="slider"> TragoX</h5>
+        <div class="col"> <img height="auto" src="./imgs/oldpar.png" class="d-block w-100" alt="...">
+          <h5 class="slider tragox"> TragoX</h5>
             <p class="slider">holi</p> 
               <h4 class="slider"> Precio</h4>
         </div>
-        <div class="col"> <img src="./imgs/redlabel.png" class="d-block w-100" alt="...">
-          <h5 class="slider"> TragoX</h5>
+        <div class="col"> <img height="auto" src="./imgs/redlabel.png" class="d-block w-100" alt="...">
+          <h5 class="slider tragox"> TragoX</h5>
             <p class="slider">holi</p> 
               <h4 class="slider"> Precio</h4> </div>
-        <div class="col"> <img src="./imgs/smirnoff.png" class="d-block w-100" alt="..."> 
-          <h5 class="slider"> TragoX</h5>
+        <div class="col"> <img id="smirnof" height="auto" class="d-block w-100" src="./imgs/smirnoff.png" alt="..."> 
+          <h5 class="slider tragox smir"> TragoX</h5>
             <p class="slider">holi</p> 
               <h4 class="slider"> Precio</h4></div>
       </div>
@@ -218,6 +212,53 @@
 
 <!-- Slider 2  -->
 
+
+<footer  class="bg-dark text-center text-white" id="footer">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0" ">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
 
 </body>
 </html>
